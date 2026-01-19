@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Report – Edit Interactions Financial Insights (Power BI)</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 40px; max-width: 1020px; line-height: 1.6; }
+    h1,h2,h3 { margin-bottom: 0.35rem; }
+    .muted { color: #555; }
+    .card { border: 1px solid #ddd; border-radius: 12px; padding: 18px; margin: 18px 0; }
+    img { max-width: 100%; height: auto; border: 1px solid #eee; border-radius: 12px; margin-top: 10px; }
+    code { background: #f5f5f5; padding: 2px 6px; border-radius: 6px; }
+    ul { margin-top: 0.4rem; }
+  </style>
+</head>
+<body>
+  <h1>Financial Insights Case Study: Edit Interactions (Power BI)</h1>
+  <p class="muted">
+    Goal: Demonstrate how Power BI’s <b>Edit Interactions</b> feature can control cross-filtering behavior across visuals,
+    using FY2019 budget vs actuals and expenditure line data.
+  </p>
+
+  <div class="card">
+    <h2>What this report shows</h2>
+    <ul>
+      <li><b>Over-budget headline</b> for FY2019</li>
+      <li><b>Budget vs Actual</b> by fund type (side-by-side comparison)</li>
+      <li><b>Department & fund drill-down</b> for targeted investigation</li>
+      <li><b>Line item breakdown</b> (what exactly is driving the spend)</li>
+      <li><b>Quarterly trend</b> to spot spikes and seasonality</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Dashboard Screens</h2>
+    <p class="muted">These screenshots are included for quick review on GitHub Pages.</p>
+
+    <h3>1) Over Budget (FY2019)</h3>
+    <img src="dashboard1.png" alt="Dashboard 1 - Over Budget and Budgets vs Actuals by Fund" />
+
+    <h3>2) Expenditure Lines – Drill-down view</h3>
+    <img src="dashboard2.png" alt="Dashboard 2 - Expenditure lines drill-down" />
+
+    <h3>3) Quarterly Expenditures</h3>
+    <img src="dashboard3.png" alt="Dashboard 3 - Quarterly expenditures" />
+
+    <h3>4) (Optional) Additional Page / Interaction Example</h3>
+    <img src="dashboard4.png" alt="Dashboard 4 - Additional interactions example" />
+  </div>
+
+  <div class="card">
+    <h2>Insights from the dashboards</h2>
+    <h3>Headline finding (FY2019)</h3>
+    <ul>
+      <li>The report highlights a clear overspend: <b>$108.36M Amount Over Budget</b> for FY2019.</li>
+    </ul>
+
+    <h3>Budget vs Actual by Fund (where the gap is coming from)</h3>
+    <ul>
+      <li><b>General Fund</b> is the largest overall spend category and dominates both budget and actual amounts.</li>
+      <li><b>Debt Service</b> is the next major fund, indicating a significant portion of spending is tied to financing obligations.</li>
+      <li>Several smaller funds show minimal differences, making it easier to focus attention on the top drivers first.</li>
+    </ul>
+
+    <h3>Targeted drill-down (example: County Capital Improvement Fund)</h3>
+    <ul>
+      <li>Within the County Capital Improvement Fund page, the largest line item shown is
+        <b>“CIP Construction Plans and Specs”</b> at around <b>$3.27M</b>.</li>
+      <li>The next major block is <b>“CIP Other Professional Services”</b> at about <b>$0.85M</b>, followed by a long tail of smaller items.</li>
+      <li>The line-item table indicates a total of about <b>490 activities</b> adding up to roughly <b>$4,978,521</b> for the selected context.</li>
+    </ul>
+
+    <h3>Quarterly pattern (spend timing)</h3>
+    <ul>
+      <li>Quarterly spend peaks at <b>2019 Q2 (~$0.57bn)</b>, which s
