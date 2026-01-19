@@ -1,7 +1,7 @@
 # Edit-Interactions-Financial-Insights-Power-BI-Case-Study
 
 🔗 **Live Report (GitHub Pages):**  
-👉 https://YOUR_GITHUB_USERNAME.github.io/Edit-Interactions-Financial-Insights-Power-BI-Case-Study/
+👉 https://mary1914.github.io/Edit-Interactions-Financial-Insights-Power-BI-Case-Study/
 
 This Power BI case study demonstrates how **Edit Interactions** helps control how visuals respond to slicers and cross-filtering.  
 The report uses FY2019 budget and expenditure data to explore **where overspending happens**, and how users can drill down from an overview into detailed line items without confusing interactions.
